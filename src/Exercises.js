@@ -37,7 +37,7 @@ const Exercises = [
     description:
       'Front Lever Raise is one of the best movements to strengthen or work towards the full Front Lever. The athlete starts from a hang and pulls himself to a Front Lever or an inverted hang with straight arms',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtRwrNZcCLVjR09M2Koe-lxXjuGZJ0sZcnXqDVPjZNBosyJUsmm94_K8LHGu3dqA1FxM&usqp=CAU',
+      'https://i.pinimg.com/originals/f5/ef/44/f5ef4420b4fbaeed31825001f327914c.jpg',
     tutorials: [
       'https://www.youtube.com/watch?v=H655GnqpRIM',
       'https://www.fitstream.com/exercises/front-lever-a6019',
