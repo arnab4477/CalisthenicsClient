@@ -6,20 +6,6 @@ const movement = defineProps({
   tutorials: Array,
   skilltype: Array,
 });
-//   name: 'Push Up',
-//   description:
-//     'Push up is a basic horizontal pushing movement that primarily works the chest and anterior delts. Push up is one of the most important base building exercises for Calisthenics',
-//   image:
-//     'https://www.researchgate.net/profile/Walter-Frontera/publication/233749968/figure/fig2/AS:667635939282950@1536188220402/A-gymnast-performing-the-Iron-Cross-which-is-executed-by-extending-both-arms-straight_Q640.jpg',
-//   tutorials: [
-//     'https://www.youtube.com/watch?v=8nbFV-BOEL8',
-//     'https://www.fitstream.com/exercises/iron-cross-a50',
-//   ],
-//   skilltype: ['strength', 'static'],
-//   muscles: ['biceps', 'shoulders'],
-//   difficulty: 'Advanced',
-//   equipments: ['gymnastics rings'],
-// };
 
 const youtubeID = movement.tutorials[0].split('=')[1];
 const YTThumbnailURL = `https://i.ytimg.com/vi/${youtubeID}/hqdefault.jpg`;

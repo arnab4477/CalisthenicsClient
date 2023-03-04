@@ -79,16 +79,13 @@ function onSelect(e) {
   align-items: center;
 
   width: 200px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 15px;
-
   background-color: white;
 }
 
 h3 {
-  position: relative;
-  top: 36px;
-  font-size: 16px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.421);
 }
 
@@ -160,15 +157,15 @@ li:hover {
 
 @media (max-width: 550px) {
   .container {
-    width: 150px;
+    width: 160px;
   }
   .filter-title {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   li {
-    height: 20px;
-    font-size: 16px;
+    height: 24px;
+    font-size: 22px;
   }
 }
 </style>
