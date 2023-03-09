@@ -1,4 +1,6 @@
 <script setup>
+import { RouterLink } from 'vue-router';
+
 const movement = defineProps({
   name: String,
   description: String,
@@ -9,16 +11,22 @@ const movement = defineProps({
 </script>
 
 <template>
-  <div class="container">
-    <div class="image-container">
-      <img class="main-image" :src="image" :alt="name" />
+  <RouterLink class="router-link" :to="`/movements/${movement.name}`">
+    <div class="container">
+      <div class="image-container">
+        <img class="main-image" :src="image" :alt="name" />
+      </div>
+      <h1>{{ movement.name }}</h1>
+      <hr />
     </div>
-    <h1>{{ movement.name }}</h1>
-    <hr />
-  </div>
+  </RouterLink>
 </template>
 
 <style scoped>
+.router-link {
+  text-decoration: none;
+  list-style: none;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -28,6 +36,11 @@ const movement = defineProps({
   border-radius: 20px;
   background-color: rgba(64, 255, 0, 0.195);
   box-shadow: 0 0 25px 2.5px rgba(84, 84, 84, 0.4);
+  transition: 0.15s;
+}
+.container:hover {
+  cursor: pointer;
+  background-color: rgba(64, 255, 0, 0.402);
 }
 .image-container {
   width: 100%;
