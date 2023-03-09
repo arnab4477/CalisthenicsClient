@@ -118,9 +118,9 @@ input {
 }
 
 button {
-  width: 105px;
-  height: 32px;
-  font-size: 20px;
+  width: 125px;
+  height: 42px;
+  font-size: 24px;
   background-color: rgb(37, 62, 0);
   border-radius: 15px;
   color: white;
