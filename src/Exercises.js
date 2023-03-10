@@ -57,10 +57,24 @@ const Exercises = [
       'https://www.youtube.com/watch?v=uZWjFe4fufA',
       'https://calisthenicsworldwide.com/calisthenics/handstand-push-up/',
     ],
-    skilltype: ['strength', 'hypertrophy', 'bent arm strength'],
+    skilltype: ['strength', 'hypertrophy', 'bent arm strength', 'balance'],
     muscles: ['triceps', 'shoulders'],
     difficulty: 'Intermediate',
     equipments: ['gymnastics rings', 'floor', 'parallel bars'],
+  },
+  {
+    name: 'One Arm Chin Up',
+    description:
+      'The One Arm Chin up is an advanced pulling movement which requires a lot of unilateral strength in the back muscles as well as tendon resilience in the biceps',
+    image: 'https://i.imgur.com/OWibpnq.jpeg',
+    tutorials: [
+      'https://www.youtube.com/watch?v=_iZhxgcwSNA',
+      'https://www.bergmovement.com/calisthenics-blog/how-to-one-arm-pull-up',
+    ],
+    skilltype: ['strength', 'bent arm strength'],
+    muscles: ['lats', 'biceps', 'forearms'],
+    difficulty: 'Advanced',
+    equipments: ['gymnastics rings', 'horizontal bar'],
   },
   {
     name: 'Iron Cross',
@@ -76,6 +90,21 @@ const Exercises = [
     muscles: ['biceps', 'shoulders'],
     difficulty: 'Advanced',
     equipments: ['gymnastics rings'],
+  },
+  {
+    name: 'Pistol Squat',
+    description:
+      'Pistol Squat is an unilateral leg movement that builds basic level of strength, hypertrophy and balance. However, this movement is quite inferior to the weighted squats and should not be a replacement for that',
+    image:
+      'https://post.greatist.com/wp-content/uploads/sites/2/2021/06/pistol-sqaut-at-gym-1200x628-facebook.jpg',
+    tutorials: [
+      'https://www.youtube.com/watch?v=PZlLHZ4Venw',
+      'https://www.runnersworld.com/training/a33810243/how-to-do-a-pistol-squat/',
+    ],
+    skilltype: ['strength', 'balance'],
+    muscles: ['legs'],
+    difficulty: 'Intermediate',
+    equipments: ['floor'],
   },
 ];
 
