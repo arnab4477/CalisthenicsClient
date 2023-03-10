@@ -104,7 +104,7 @@ h3 {
 }
 
 .filter-title {
-  font-size: 24px;
+  font-size: 20px;
   font-style: bold;
 }
 
@@ -159,13 +159,16 @@ li:hover {
   .container {
     width: 160px;
   }
+  .filter-title-container {
+    height: 50px;
+  }
   .filter-title {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   li {
-    height: 24px;
-    font-size: 22px;
+    height: 35px;
+    font-size: 18px;
   }
 }
 </style>

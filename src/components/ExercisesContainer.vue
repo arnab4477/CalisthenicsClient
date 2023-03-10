@@ -20,14 +20,12 @@ import ExercisesGrid from './ExercisesGrid.vue';
 
   padding: 10px;
 
-  background-color: rgba(252, 1, 10, 0.143);
+  background-color: rgba(225, 99, 167, 0.349);
 
   width: 1000px;
   height: auto;
   overflow-y: auto;
   overflow-x: hidden;
-
-  border-radius: 25px;
 }
 
 .container::-webkit-scrollbar {
@@ -61,7 +59,7 @@ import ExercisesGrid from './ExercisesGrid.vue';
   }
 
   .heading {
-    font-size: 28px;
+    font-size: 26px;
     right: 0px;
   }
 
