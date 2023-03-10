@@ -26,7 +26,7 @@ import SearchBar from '../components/SearchBar.vue';
 <style scoped>
 .main-section {
   background-color: rgba(78, 126, 0, 0.683);
-  background-image: url('main.jpg');
+  background-image: url('https://i.imgur.com/VlE7tkr.jpeg');
   background-size: cover;
   background-blend-mode: multiply;
 
@@ -66,7 +66,7 @@ button:hover {
 }
 
 .search-section {
-  background-image: url('larosa.jpg');
+  background-image: url('https://i.ytimg.com/vi/OFMDHleuMgc/maxresdefault.jpg');
   background-size: cover;
 
   padding-bottom: 475px;
