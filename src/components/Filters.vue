@@ -25,9 +25,7 @@ const muscles = {
     'triceps',
     'shoulders',
     'forearms',
-    'quadriceps',
-    'hamstrings',
-    'glutes',
+    'legs',
   ],
 };
 
