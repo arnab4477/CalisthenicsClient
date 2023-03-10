@@ -5,7 +5,7 @@ const skills = {
   type: 'Skills',
   filterArr: [
     'Any',
-    'basic',
+    'basics',
     'strength',
     'hypertrophy',
     'balance',

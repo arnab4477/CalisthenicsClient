@@ -31,7 +31,7 @@ const movement = defineProps({
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
+  width: 260px;
   border: 0.5px solid rgba(75, 75, 75, 0.846);
   border-radius: 20px;
   background-color: rgba(64, 255, 0, 0.195);
